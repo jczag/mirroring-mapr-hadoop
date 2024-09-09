@@ -1,20 +1,4 @@
-<<<<<<< HEAD
-# Installation et Déploiement de la Distribution MapR avec Ansible
 
-Ce guide explique comment installer et déployer la distribution MapR sur un cluster de 3 nœuds et un edge en utilisant des fichiers playbooks Ansible.
-
-## Prérequis
-
-- **Ansible** installé sur votre machine de contrôle.
-- Accès SSH aux nœuds du cluster.
-- Les nœuds doivent avoir une configuration réseau appropriée et être accessibles entre eux.
-
-## Structure des Répertoires
-
-
-
-
-=======
 # mirroring-mapr-hadoop
 ![](https://hpe-developer-portal.s3.amazonaws.com/uploads/media/2020/6/image16-1594351510942.jpg)
 
@@ -75,4 +59,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
->>>>>>> 99387a7409e89c1ca48f03b956245da405a9c3f2
