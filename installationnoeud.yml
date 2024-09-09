@@ -1,0 +1,46 @@
+---
+- hosts: hadoop_nodes
+  become: yes
+  tasks:
+    - name: Update apt packages
+      apt: update_cache=yes
+
+    - name: Install Java
+      apt:
+        name: openjdk-11-jdk
+        state: present
+
+    - name: Download and extract Hadoop
+      get_url:
+        url: "http://apache.mirror.digitalpacific.com.au/hadoop/common/hadoop-3.3.1/hadoop-3.3.1.tar.gz"
+        dest: "/opt/hadoop-3.3.1.tar.gz"
+      become: yes
+
+    - name: Extract Hadoop
+      unarchive:
+        src: "/opt/hadoop-3.3.1.tar.gz"
+        dest: "/opt/"
+        remote_src: yes
+      become: yes
+
+    - name: Configure Hadoop environment variables
+      lineinfile:
+        dest: /etc/profile.d/hadoop.sh
+        line: "export HADOOP_HOME=/opt/hadoop-3.3.1"
+      become: yes
+
+    - name: Start Hadoop services
+      shell: "/opt/hadoop-3.3.1/sbin/start-all.sh"
+      become: yes
+
+- hosts: hadoop_nodes
+  become: yes
+  tasks:
+    - name: Download and install MAPR
+      shell: |
+        wget http://package.mapr.com/releases/v7.7.0/ubuntu/mapr-7.7.0.GA-ubuntu24.04-amd64.deb
+        dpkg -i mapr-7.7.0.GA-ubuntu24.04-amd64.deb
+    - name: Configure and start Hadoop services
+      shell: /opt/mapr/server/configure.sh -C <CLDB node IPs> -Z <Zookeeper node IPs>
+   
+

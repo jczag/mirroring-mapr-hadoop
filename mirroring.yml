@@ -1,0 +1,11 @@
+- hosts: hadoop_nodes
+  become: yes
+  tasks:
+    - name: Create volume A
+      shell: "maprcli volume create -name A -path /A"
+
+    - name: Create volume A'
+      shell: "maprcli volume create -name A' -path /A'"
+
+    - name: Setup mirroring from A to A'
+      shell: "maprcli volume mirror start -name A -source /A -dest /A'"

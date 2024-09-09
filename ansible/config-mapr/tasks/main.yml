@@ -1,0 +1,21 @@
+---
+#Les fichiers de bases pour les rôle hadoop_common
+
+- import_tasks: hosts_maj.yml
+
+- import_tasks: repository_ubuntu_install.yml
+
+
+# Installation utilitaires sur tous les nœuds
+- include_tasks: install_utilities.yml
+
+- import_tasks: open_port.yml
+
+- include_tasks: services_mapr_conf.yml
+
+- import_tasks: group_user_create.yml
+
+- import_tasks: get_license.yml
+  when: inventory_hostname in groups['Licence_node']
+
+ 

@@ -1,0 +1,24 @@
+vms:
+  - name: noeud1.mirroring
+    ip: "192.168.10.1"
+    cpu: 8
+    memory: 16384
+    secondary_disks: 1
+  - name: noeud2.mirroring
+    ip: "192.168.10.2"
+    cpu: 8
+    memory: 16384
+    secondary_disks: 3
+  - name: noeud3.mirroring
+    ip: "192.168.10.3"
+    cpu: 8
+    memory: 16384
+    secondary_disks: 1
+  - name: edge.mirroring
+    ip: "192.168.10.4"
+    cpu: 5
+    memory: 16384
+    secondary_disks: 0
+
+disk_size: 50000
+disks_folder_path: /dev/sdh
