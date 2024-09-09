@@ -1,0 +1,290 @@
+-----BEGIN SIGNED MESSAGE-----
+clusterid: "8616963040781714505"
+version: "4.0"
+customerid: "YHCTCY49D2E6"
+issuer: "Hewlett Packard Enterprise (HPE)"
+licType: Enterprise
+description: "HPE Ezmeral Data Fabric Cons 90-Day Eval (Enterprise Advanced)"
+enforcement: HARD
+gracePeriod: 1296000
+issuedate: 1725215028
+expirationdate: 1733077428
+issuedateStr: "Sun Sep 01 18:23:48 GMT 2024"
+expdateStr: "Sun Dec 01 18:23:48 GMT 2024"
+capabilities {
+  feature: MULTI_CLUSTER
+  name: "Multiple Clusters Support"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAXNODES
+  name: "Max Nodes in Cluster"
+  permission: ALLOW
+  featureData {
+    maxNodes: "9999"
+  }
+}
+capabilities {
+  feature: CLDB_HA
+  name: "CLDB HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: SNAPSHOT
+  name: "Snapshots"
+  permission: ALLOW
+}
+capabilities {
+  feature: MIRRORING
+  name: "Mirroring"
+  permission: ALLOW
+}
+capabilities {
+  feature: DATA_PLACEMENT
+  name: "Data placement"
+  permission: ALLOW
+}
+capabilities {
+  feature: NFS
+  name: "NFS"
+  permission: ALLOW
+  featureData {
+    maxNfsNodes: "9999"
+  }
+}
+capabilities {
+  feature: NFS_MULTINODE
+  name: "NFS Multiple Nodes"
+  permission: ALLOW
+}
+capabilities {
+  feature: NFS_HA
+  name: "NFS HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: JOBTRACKER_HA
+  name: "JobTracker HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: OPTIMIZED_SHUFFLE
+  name: "Optimized Shuffle"
+  permission: ALLOW
+}
+capabilities {
+  feature: JM_CHARTS
+  name: "Job Management Charts"
+  permission: ALLOW
+}
+capabilities {
+  feature: JM_HISTOGRAMS
+  name: "Job Management Histograms"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_STREAMS
+  name: "MapR Streams"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_TABLES
+  name: "MapR Tables"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_TABLES_FULL
+  name: "MapR Tables Full"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_STREAMS_FULL
+  name: "MapR Streams Full"
+  permission: ALLOW
+}
+modules: "mapr-xd-premier,hadoop,database,streams"
+startDate: 1725215024
+consumptionLicensing: true
+startDateStr: "Sun Sep 01 18:23:44 GMT 2024"
+-----BEGIN DATA-----
+ChM4NjE2OTYzMDQwNzgxNzE0NTA1EgM0LjAaDFlIQ1RDWTQ5RDJFNiogSGV3bGV0dCBQYWNrYXJk
+IEVudGVycHJpc2UgKEhQRSkwAzo+SFBFIEV6bWVyYWwgRGF0YSBGYWJyaWMgQ29ucyA5MC1EYXkg
+RXZhbCAoRW50ZXJwcmlzZSBBZHZhbmNlZClAAkiAjU9QtOLStgZYtNOyugZiHFN1biBTZXAgMDEg
+MTg6MjM6NDggR01UIDIwMjRqHFN1biBEZWMgMDEgMTg6MjM6NDggR01UIDIwMjSiAR8IBBIZTXVs
+dGlwbGUgQ2x1c3RlcnMgU3VwcG9ydBgDogEiCAoSFE1heCBOb2RlcyBpbiBDbHVzdGVyGANSBhIE
+OTk5OaIBDQgFEgdDTERCIEhBGAOiAQ8IBxIJU25hcHNob3RzGAOiAQ8ICBIJTWlycm9yaW5nGAOi
+ARQICRIORGF0YSBwbGFjZW1lbnQYA6IBEQgBEgNORlMYA1IGCgQ5OTk5ogEYCAISEk5GUyBNdWx0
+aXBsZSBOb2RlcxgDogEMCAMSBk5GUyBIQRgDogETCAYSDUpvYlRyYWNrZXIgSEEYA6IBFwgLEhFP
+cHRpbWl6ZWQgU2h1ZmZsZRgDogEbCAwSFUpvYiBNYW5hZ2VtZW50IENoYXJ0cxgDogEfCA0SGUpv
+YiBNYW5hZ2VtZW50IEhpc3RvZ3JhbXMYA6IBEggXEgxNYXBSIFN0cmVhbXMYA6IBEQgOEgtNYXBS
+IFRhYmxlcxgDogEWCA8SEE1hcFIgVGFibGVzIEZ1bGwYA6IBFwgYEhFNYXBSIFN0cmVhbXMgRnVs
+bBgDsgEnbWFwci14ZC1wcmVtaWVyLGhhZG9vcCxkYXRhYmFzZSxzdHJlYW1zuAGw4tK2BsABAcoB
+HFN1biBTZXAgMDEgMTg6MjM6NDQgR01UIDIwMjQ=
+-----BEGIN SIGNATURE-----
+OpAg93DYaKPINQysV4dQ3tUWAehlO/gTeIx2lZpjy92I8VmWzxqhBmkRGpvMn9SK3kCu75l9kYcj
+mvCDJbrH8rRpajVHeCZVv+8seAE4RZrQcFHPLZpnYlsohvbs2mVI7jm9BgleBb95e8CSPyWc5Fw6
+uMMWm24n/CuzC9K+Nti5gD61s/CIa3Mg7ZnBdNe4leyXbqY/71EJeOGe/E959eAisVDCX9wk1xpt
+5woc2u0iybSjgLe0ZbVQWcWOZh9Owbus8KHDtktzsYds5Wrm+LNXYm+ceFAKJ3Ip2bCbfVbdLUha
+4aZ/k7qcOcYi8Aze3OfynNOyO8Yw5RSmAMj9nEw0xX2I8yUyKtxqQ65vzu7RpYd2SKC6hsTY+tIa
+1VYBH2rycSKsKHTFHoxEoJy8bbhObEAVgyqggODdlAhKErsk6H91PP1S20dePvRMS9hwSmPFgjCp
+4k9n2ulJzJfVqHCJiS7LfJxagldHaorD+OI3FhaWi+RHw+R9j9G4LZMbg6tSBV83sLicrDBVc0M9
+3hrLPOCuQkOCOqW5nwWbTo5dH+tSj/T5cs7DX2QUbxJBKrSGG0krQGo141HfcsWpZtiORvPb87Fk
+pqJZQmUMqblyJ2irrApOzA2wVvYNrDJFzOvT96LlWuynNSgpuqRfAzZpuBpQtn1usdqpN849to0t
+SxZyhOIuRbd+3iWRmE++H8YYvD2AzVXxtKSbaMOTkMH1fHXQkwgMCjYNmyC75nesq+EqOhJv3cY7
+j0o7fHVCn8pTeZ7ffomkL9MzfKGuVlHQhBJz5YHfUN7rmuWxLt6Qzqmx/K3YlLEM7TXGGYnJN9Fc
+hudsgZTz2MXB/pKj/CZTLpO9cP/sTVo2K9g3UotH3J1GpZxXTgyS94SFSl8Ask1z7gTW/nRTKh/4
+KHVaRRcJBXZw2h+yUX+p9o2jn7+58PUlNYM+wTnrNmiblSaa4V5Ylgg5Y/QydWm5qbYiSawBffix
+toXlJdhn7lHTPzuPs1AZT/tQrpxbbK0iNuXIGaTkNojTim5nOgZJDuZ2ioO44PCzfsFG0OZWxvvF
+EoS9Lm2InqubEjaRUvfXWHpkpTlgo3k0i+95GONlgA1jtOZmHo4GDyCLBoaYdV7bayF96h/A9PWN
+SuibiaNd+oyOSZvxdNkJH7UE7EDKu8FrJp4RkQ3TaA002eWAPiq/Jt6PcnvTVGHk8sK4Y8hkgJ7L
+887/KIFStIkB3OXvyUE8bNJvvcb4QEmwlNnxwB1dadPNFc0GhmosiAaflJVwyGRrbD0JmUorOZoK
+TR+jlSVCSrY2da+9q6+ccwPGemOBXblh2IC05lYJI3OS17loyppxuRx7/DoORXb86vKZJUGE8w==
+-----END SIGNATURE-----
+
+NJKeRLoCSdnJ5db8gx547oY3X/w=
+-----END MESSAGE HASH-----
+-----BEGIN SIGNED MESSAGE-----
+clusterid: "8616963040781714505"
+version: "4.0"
+customerid: "YHCTCY49D2E6"
+issuer: "Hewlett Packard Enterprise (HPE)"
+licType: Enterprise
+description: "HPE Ezmeral Data Fabric Cons 90-Day Eval (Enterprise Advanced)"
+enforcement: HARD
+gracePeriod: 1296000
+issuedate: 1725215028
+expirationdate: 1733077428
+issuedateStr: "Sun Sep 01 18:23:48 GMT 2024"
+expdateStr: "Sun Dec 01 18:23:48 GMT 2024"
+capabilities {
+  feature: MULTI_CLUSTER
+  name: "Multiple Clusters Support"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAXNODES
+  name: "Max Nodes in Cluster"
+  permission: ALLOW
+  featureData {
+    maxNodes: "9999"
+  }
+}
+capabilities {
+  feature: CLDB_HA
+  name: "CLDB HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: SNAPSHOT
+  name: "Snapshots"
+  permission: ALLOW
+}
+capabilities {
+  feature: MIRRORING
+  name: "Mirroring"
+  permission: ALLOW
+}
+capabilities {
+  feature: DATA_PLACEMENT
+  name: "Data placement"
+  permission: ALLOW
+}
+capabilities {
+  feature: NFS
+  name: "NFS"
+  permission: ALLOW
+  featureData {
+    maxNfsNodes: "9999"
+  }
+}
+capabilities {
+  feature: NFS_MULTINODE
+  name: "NFS Multiple Nodes"
+  permission: ALLOW
+}
+capabilities {
+  feature: NFS_HA
+  name: "NFS HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: JOBTRACKER_HA
+  name: "JobTracker HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: OPTIMIZED_SHUFFLE
+  name: "Optimized Shuffle"
+  permission: ALLOW
+}
+capabilities {
+  feature: JM_CHARTS
+  name: "Job Management Charts"
+  permission: ALLOW
+}
+capabilities {
+  feature: JM_HISTOGRAMS
+  name: "Job Management Histograms"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_STREAMS
+  name: "MapR Streams"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_TABLES
+  name: "MapR Tables"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_TABLES_FULL
+  name: "MapR Tables Full"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_STREAMS_FULL
+  name: "MapR Streams Full"
+  permission: ALLOW
+}
+modules: "mapr-xd-premier,hadoop,database,streams"
+startDate: 1725215024
+consumptionLicensing: true
+startDateStr: "Sun Sep 01 18:23:44 GMT 2024"
+-----BEGIN DATA-----
+ChM4NjE2OTYzMDQwNzgxNzE0NTA1EgM0LjAaDFlIQ1RDWTQ5RDJFNiogSGV3bGV0dCBQYWNrYXJk
+IEVudGVycHJpc2UgKEhQRSkwAzo+SFBFIEV6bWVyYWwgRGF0YSBGYWJyaWMgQ29ucyA5MC1EYXkg
+RXZhbCAoRW50ZXJwcmlzZSBBZHZhbmNlZClAAkiAjU9QtOLStgZYtNOyugZiHFN1biBTZXAgMDEg
+MTg6MjM6NDggR01UIDIwMjRqHFN1biBEZWMgMDEgMTg6MjM6NDggR01UIDIwMjSiAR8IBBIZTXVs
+dGlwbGUgQ2x1c3RlcnMgU3VwcG9ydBgDogEiCAoSFE1heCBOb2RlcyBpbiBDbHVzdGVyGANSBhIE
+OTk5OaIBDQgFEgdDTERCIEhBGAOiAQ8IBxIJU25hcHNob3RzGAOiAQ8ICBIJTWlycm9yaW5nGAOi
+ARQICRIORGF0YSBwbGFjZW1lbnQYA6IBEQgBEgNORlMYA1IGCgQ5OTk5ogEYCAISEk5GUyBNdWx0
+aXBsZSBOb2RlcxgDogEMCAMSBk5GUyBIQRgDogETCAYSDUpvYlRyYWNrZXIgSEEYA6IBFwgLEhFP
+cHRpbWl6ZWQgU2h1ZmZsZRgDogEbCAwSFUpvYiBNYW5hZ2VtZW50IENoYXJ0cxgDogEfCA0SGUpv
+YiBNYW5hZ2VtZW50IEhpc3RvZ3JhbXMYA6IBEggXEgxNYXBSIFN0cmVhbXMYA6IBEQgOEgtNYXBS
+IFRhYmxlcxgDogEWCA8SEE1hcFIgVGFibGVzIEZ1bGwYA6IBFwgYEhFNYXBSIFN0cmVhbXMgRnVs
+bBgDsgEnbWFwci14ZC1wcmVtaWVyLGhhZG9vcCxkYXRhYmFzZSxzdHJlYW1zuAGw4tK2BsABAcoB
+HFN1biBTZXAgMDEgMTg6MjM6NDQgR01UIDIwMjQ=
+-----BEGIN SIGNATURE-----
+CNuRTEZoexzYT2euJ6F0VyshK+m4glaBPOsdoft3NWDvqXhiO5Vrh1kyZhWt3x4hNUG24XvQnSo6
+it/ZjCiEHOE19EOgcN16yWBK3tgywV1g+TVQfQOxK/j1nkodNC2oF2ND4dW7RUI3js76J8g4AZM5
+v3AQow6/l6s11ySWTj6JNjlziDELSO0+iEvC7oGXlikeW6sk05gyKDnbBcyXC7DHNddLsp8yDz+E
+WDSofcVS4ocORXwdKOZGx8zkbdq3eaxeea7nzPq9W0nTrF3YH2v7WNUUbDv0Xs17FHgiJaE9aDk+
+9d4/A9SWuzWd772YNdO1HzSJfkpIOD+uBxrKbBks3gbX6tQeVpXvE8ooF3gcQLN1Q7B+590QcUog
+33Z4Ma1OgffN6ldtEmjnHLvVuoglwjitbkMaIXKcdU/wJeDtGsgd19dDl7QgnjjD7k+geOmO6Mwd
+pqBaAwdOVj1G2aqB3LB0Ac0YXvBP4+cMwdUdlhEUU2r4iAWQxVxtdqIYwmyDmFAJOm9IwbvgC3tC
+k6VdiLa//4WXIBQv4rcu79u/5bKxDlin530THZUPNLgVRndJIPQWhjoGGhkQgjqsChhC5OQA2tU0
+yI89EkpNNAK77Kc/xTPhJM87ep2r07UmwOTrTu2E6CyzhNYvu43jv6mOCOCixuqodl1XlFy/9zE5
+Qyoy8KcvYY5D24nzxo6Wqj435mgVPLurV+o333Mw1vJDP8lpj0C9ZxIN+MRkRasLpXSM0Oa/lnp1
+1N8ZGgujsvR2g8bUkt2+ZsDhCIHZnG22wLd5LBnM/byqmZ42cwm2O6KZu7OsDUZrEbL+k0M+1Fu8
+Cld+VkOAPLBO+1Dy1ZFE4Av85XvSUvNDPUUThQCrJfhn0KTxL2+NGS9LbZGFanwm256AH7zD1xg2
+btdmYzL+JsseJftPr1uzZJdFmH8I2BJzuPwDiUy9umhWR/qTGiTdrNBlrlf1TD0IPgX9x8Uocyfa
+csNMPYBewAeH88bWRGSiZG+bDSiE2YfLeN7oNAXZzyqw7ztJ6MEzPLUSnw3HviG2r8m9FbiK6tSH
+xgjTgQ41xgc++szLNyThXtMbEwP+td8pTcCG+NVICOPNfXVdzeT0RkopGt74SGEX7gfjmg/TOxNx
+BBhttU3D/6TXEK+0XLPBZ08ACA1xdMEk+YpF5vUqBVRrt8nZfmJ33e1KU923fkUMwwsRqwMr5stN
+VMfRny3+N4qaAbBhmDR+vGfKwWauLTSVETFk1WNCMthZfbX9ukVXY23ilcCwSf7XK/0R8w/9ZdHE
+KBNiyHHfQ8ICc39JMQtz8PzPWzFBF9JNdYpYNuenoSNwkff6pE6rJJ2yO0UglxDtytX7ugTRug==
+-----END SIGNATURE-----
+
+ZuZ1AvyL0sh3bJRmYa9zlvNcLoRHSXMj7tawH79GwiQ=
+-----END MESSAGE HASH-----

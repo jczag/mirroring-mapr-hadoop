@@ -1,0 +1,29 @@
+[noeud1]
+noeud1 ansible_host=192.168.10.1 ansible_user=ansible
+
+[noeud2]
+noeud2 ansible_host=192.168.50.102 ansible_user=ansible
+
+[zookeeper_nodes]
+noeud1
+noeud2
+noeud3
+
+[cldb_nodes]
+noeud1
+
+[resource_manager_nodes]
+noeud1
+
+[historyserver_nodes]
+noeud2
+
+[webserver_nodes]
+noeud2
+
+[all_nodes:children]
+zookeeper_nodes
+cldb_nodes
+resource_manager_nodes
+historyserver_nodes
+webserver_nodes

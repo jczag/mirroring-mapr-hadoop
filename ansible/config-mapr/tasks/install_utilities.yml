@@ -1,0 +1,18 @@
+- name: Update all packages to the latest version pour Ubuntu
+  apt:
+    name: "*"
+    state: latest
+  when: "'Ubuntu' in hostvars[inventory_hostname]['OS']"
+
+- name: Install utilities and update for Ubuntu
+  apt:
+    name:
+      - syslinux-utils
+      - firewalld
+      - python
+      - nfs-kernel-server
+      - openjdk-8-jdk
+    state: present
+    update_cache: yes
+  when: "'Ubuntu' in hostvars[inventory_hostname]['OS']"
+
